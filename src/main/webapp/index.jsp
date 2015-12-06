@@ -10,7 +10,7 @@
 </head>
 <body>
 	
-<h1>Assistente Virtual para Eventos</h1>
+<h1>Assistente Virtual para Eventos </h1>
 
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
