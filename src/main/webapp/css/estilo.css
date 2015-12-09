@@ -23,3 +23,138 @@
       display: none; 
     }
   }
+  
+  
+  
+  #according a{
+	color: #ffffff;
+}
+#according a:hover{
+	color: #DDD;
+}
+
+#according {
+	height: auto;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+/* Coisas mais comuns que voce precisa mudar */
+
+.coda-slider-wrapper {
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 10px;
+	padding-left: 0;
+	clear: both; 
+	overflow: auto;
+	
+}
+.coda-slider {
+	background-image: url(template/fundo_azulescuro.jpg);
+	background-repeat: repeat;
+}
+.title {
+	color: #FFF;
+}
+
+	
+	/* Use isso para manter o controle deslizante conteúdo contido em uma caixa, mesmo quando o JavaScript está desativado */
+	.coda-slider-no-js .coda-slider { height: 200px; overflow: auto !important; padding-right: 20px }
+	
+	/* Alterar a largura da barra inteira (sem setas dinâmico)*/
+	.coda-slider, .coda-slider .panel {
+	width: 899px;
+} 
+	
+	/* estilo das setas */
+	.coda-nav-left a, .coda-nav-right a {
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	width: 100px
+}
+	
+	/* Panel padding */
+	.coda-slider .panel-wrapper {
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+	
+	/* Preloader */
+	.coda-slider p.loading { padding: 20px; text-align: center }
+
+/* Don't change anything below here unless you know what you're doing */
+
+	/* Tabbed nav */
+	.coda-nav ul {
+	clear: both;
+	display: inline;
+	overflow: hidden;
+}
+	.coda-nav ul li {
+	display: inline;
+}
+	.coda-nav ul li a {
+	color: #FFF;
+	display: block;
+	float: left;
+	margin-right: 3px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	font-size: 15px;
+	background-image: url(template/fundo_verde.jpg);
+	background-repeat: repeat;
+}
+.coda-nav ul li a:hover {
+	display: block;
+	float: left;
+	text-decoration: none;
+	background-color: #00983E;
+	color: #FFF;
+}
+	
+	/* Tab nav */
+	.coda-nav ul li a.current {
+	color: #FFF;
+	background-image: url(template/fundo_azulescuro.jpg);
+	background-repeat: repeat;
+}
+.descriptions_services li{
+	margin-bottom: 10px;
+	line-height: 23px;
+	list-style-position: outside;
+	list-style-image: url(imagens/visto.png);
+	color: #FFF;
+}
+
+	
+	/* Miscellaneous */
+	.coda-slider { 
+	float: left; 
+	overflow: hidden; 
+	position: relative; 
+	}
+	.coda-slider .panel {
+	display: block;
+	float: left;
+	width: 900px;
+}
+	.coda-slider .panel-container { 
+	position: relative; 
+	}
+	.coda-nav-left, .coda-nav-right { 
+	float: left; 
+	}
+	.coda-nav-left a, .coda-nav-right a { 
+	display: block; 
+	text-align: center; 
+	text-decoration: none; 
+	}
+	
+  

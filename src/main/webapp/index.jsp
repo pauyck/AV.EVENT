@@ -43,9 +43,10 @@ src="../bootstrap/js/jquery.min.js"><\/script>');//]]>
 			<div class="collapse navbar-collapse" id="myNavbar">
 				<ul class="nav navbar-nav">
 					<li class="active"><a href="#">HOME</a></li>
-					<li><a href="#">PROJETO</a></li>
-					<li><a href="#">ASSISTENTE</a></li>
-					<li><a href="#">CONTATO</a></li>
+					<li><a href="#">Qtd. Banheiros</a></li>
+					<li><a href="#">Outro APP</a></li>
+					<li><a href="#">Outro APP</a></li>
+					<li><a href="#">Outro APP</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span>
