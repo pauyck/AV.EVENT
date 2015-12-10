@@ -58,15 +58,14 @@
 								quantidade nescess&aacute;ria de banheiros:</h2>
 
 							<label class="description" for="numero_usuarios">Numero
-								de usu&aacute;rios <input name="" type="text" id="uqtde"
-								value="500" /> <input type="range" name="qtdUsuarios"
-								id="qtdUsuarios" min="100" max="100000" step="100" value="100" />
+								de usu&aacute;rios
+								<input type="range" name="qtdUsuarios" id="qtdUsuarios" min="100" max="100000" step="10" value="100" />
+								
 							</label> <br /> 
 							
 							<label class="description" for="evento_horas">
 								Dura&ccedil;&atilde;o do evento<small> <input name=""
 									type="text" id="horas" />( horas ) 
-									
 									<input type="range" name="qtdHoras" id="qtdHoras" min="1" max="10" step="1" value="1"/>
 							</small>
 							</label> <br />
@@ -74,8 +73,8 @@
 
 							<br />
 
-								Bebida Alcoolica: <input onchange="calculoevento()" id="bebida_alcoolica" name="bebida_alcoolica" class="checkbox" type="checkbox" value="1" />
-								Equipe de Limpeza: <input onchange="calculoevento()" id="equipe_limpeza" name="equipe_limpeza" class="element checkbox" type="checkbox" value="1" />
+								Bebida Alcoolica: <input id="bebida_alcoolica" name="bebida_alcoolica" class="checkbox" type="checkbox" value="1" />
+								Equipe de Limpeza: <input id="equipe_limpeza" name="equipe_limpeza" class="element checkbox" type="checkbox" value="1" />
 							</div>
 
 							<hr />
